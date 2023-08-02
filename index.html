@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+
+		<title>Frontend Mentor | Age calculator app</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700;1,800&display=swap"
+			rel="stylesheet" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<header class="header">
+			<div class="header__boxes">
+				<div class="header__text-box">
+					<form action="">
+						<div class="header__form-group">
+							<label for="day">Day</label>
+							<input type="text" id="day" placeholder="DD" minlength="1" maxlength="2" required />
+							<p class="header__error">This filed is required</p>
+						</div>
+						<div class="header__form-group">
+							<label for="month">Month</label>
+							<input type="text" id="month" placeholder="MM" minlength="1" maxlength="2" required />
+							<p class="header__error">This filed is required</p>
+						</div>
+						<div class="header__form-group">
+							<label for="year">Year</label>
+							<input type="text" id="year" placeholder="YYYY" minlength="4" maxlength="4" required />
+							<p class="header__error">This filed is required</p>
+						</div>
+					</form>
+					<button class="header__btn"><img src="./assets/images/icon-arrow.svg" alt="icon" /></button>
+				</div>
+				<div class="header__info">
+					<p class="header__text"><span class="header__years">--</span> years</p>
+					<p class="header__text"><span class="header__months">--</span> months</p>
+					<p class="header__text"><span class="header__days">--</span> days</p>
+				</div>
+			</div>
+		</header>
+		<script src="./js/style.js"></script>
+	</body>
+</html>
