@@ -1,3 +1,8 @@
+Live server: https://resplendent-dragon-fc525c.netlify.app/
+![Nowy obraz mapy bitowej](https://github.com/Kamilbd/12.age-calculator-app-main/assets/99655638/0db4341c-caf4-4ff0-be08-d81310805f22)
+
+
+
 # Frontend Mentor - Age calculator app solution
 
 This is a solution to the [Age calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
